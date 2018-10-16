@@ -136,21 +136,44 @@ h6 {
 
 h4,
 big {
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 }
 
 h3,
 blockquote p,
 caption {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2rem;
+}
+
+@media screen and (min-width: 75rem) { /* Desktop / 75rem / 1200px */
+
+	h4,
+	big {
+		font-size: 1.25rem;
+	}
+
+	h3,
+	blockquote p,
+	caption {
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
 }
 
 /* Line Height */
